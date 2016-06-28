@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PeevedPenguins/GameScene.swift"
+            timestampString = "488824273.762658"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "150"
+            endingLineNumber = "150"
+            landmarkName = "update(_:)"
+            landmarkType = "5">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PeevedPenguins.GameScene.update (Swift.Double) -&gt; ()"
+                  moduleName = "PeevedPenguins"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/OwenMeyer/Desktop/PeevedPenguins/PeevedPenguins/GameScene.swift"
+                  timestampString = "488761082.477802"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "149"
+                  endingLineNumber = "149"
+                  offsetFromSymbolStart = "32">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PeevedPenguins.GameScene.update (Swift.Double) -&gt; ()"
+                  moduleName = "PeevedPenguins"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/OwenMeyer/Desktop/PeevedPenguins/PeevedPenguins/GameScene.swift"
+                  timestampString = "488761082.479999"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "149"
+                  endingLineNumber = "149"
+                  offsetFromSymbolStart = "76">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

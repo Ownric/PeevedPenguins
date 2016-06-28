@@ -36,6 +36,9 @@
 		A5D2E7ED1D1DD4E6009CED84 /* SKTTimingFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5D2E7E11D1DD4E6009CED84 /* SKTTimingFunctions.swift */; };
 		A5D2E7EE1D1DD4E6009CED84 /* Vector3.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5D2E7E21D1DD4E6009CED84 /* Vector3.swift */; };
 		A5D2E7F11D1DE94D009CED84 /* Level1.sks in Resources */ = {isa = PBXBuildFile; fileRef = A5D2E7F01D1DE94D009CED84 /* Level1.sks */; };
+		A5D531931D21B6E3008F3807 /* SealExplosion.sks in Resources */ = {isa = PBXBuildFile; fileRef = A5D531911D21B6E3008F3807 /* SealExplosion.sks */; };
+		A5D531941D21B6E3008F3807 /* spark.png in Resources */ = {isa = PBXBuildFile; fileRef = A5D531921D21B6E3008F3807 /* spark.png */; };
+		A5D531971D21CEC4008F3807 /* sfx_seal.caf in Resources */ = {isa = PBXBuildFile; fileRef = A5D531961D21CEC4008F3807 /* sfx_seal.caf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -70,6 +73,9 @@
 		A5D2E7E11D1DD4E6009CED84 /* SKTTimingFunctions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SKTTimingFunctions.swift; sourceTree = "<group>"; };
 		A5D2E7E21D1DD4E6009CED84 /* Vector3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Vector3.swift; sourceTree = "<group>"; };
 		A5D2E7F01D1DE94D009CED84 /* Level1.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Level1.sks; sourceTree = "<group>"; };
+		A5D531911D21B6E3008F3807 /* SealExplosion.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = SealExplosion.sks; sourceTree = "<group>"; };
+		A5D531921D21B6E3008F3807 /* spark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spark.png; sourceTree = "<group>"; };
+		A5D531961D21CEC4008F3807 /* sfx_seal.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = sfx_seal.caf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +112,8 @@
 				A50965351D1D999E00413AF7 /* AppDelegate.swift */,
 				A50965371D1D999E00413AF7 /* GameScene.sks */,
 				A50965391D1D999E00413AF7 /* GameScene.swift */,
+				A5D531911D21B6E3008F3807 /* SealExplosion.sks */,
+				A5D531921D21B6E3008F3807 /* spark.png */,
 				A5D2E7EF1D1DE8A7009CED84 /* Levels */,
 				A509653B1D1D999E00413AF7 /* GameViewController.swift */,
 				A509655C1D1DCAF500413AF7 /* MainScene.swift */,
@@ -118,6 +126,7 @@
 				A50965451D1D999E00413AF7 /* Info.plist */,
 				A50965531D1DB5CC00413AF7 /* MSReferenceNode.swift */,
 				A509655A1D1DC7E600413AF7 /* MSButtonNode.swift */,
+				A5D531951D21CEC4008F3807 /* SFX */,
 				A509654B1D1D9ADD00413AF7 /* assets.atlas */,
 			);
 			path = PeevedPenguins;
@@ -158,6 +167,15 @@
 				A5D2E7F01D1DE94D009CED84 /* Level1.sks */,
 			);
 			name = Levels;
+			sourceTree = "<group>";
+		};
+		A5D531951D21CEC4008F3807 /* SFX */ = {
+			isa = PBXGroup;
+			children = (
+				A5D531961D21CEC4008F3807 /* sfx_seal.caf */,
+			);
+			name = SFX;
+			path = "SFX 3";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -224,8 +242,11 @@
 				A50965381D1D999E00413AF7 /* GameScene.sks in Resources */,
 				A50965441D1D999E00413AF7 /* LaunchScreen.storyboard in Resources */,
 				A50965411D1D999E00413AF7 /* Assets.xcassets in Resources */,
+				A5D531941D21B6E3008F3807 /* spark.png in Resources */,
 				A509654E1D1D9B3300413AF7 /* Bear.sks in Resources */,
+				A5D531931D21B6E3008F3807 /* SealExplosion.sks in Resources */,
 				A509654C1D1D9ADD00413AF7 /* assets.atlas in Resources */,
+				A5D531971D21CEC4008F3807 /* sfx_seal.caf in Resources */,
 				A50965591D1DC71A00413AF7 /* MainScene.sks in Resources */,
 				A509653F1D1D999E00413AF7 /* Main.storyboard in Resources */,
 				A5D2E7F11D1DE94D009CED84 /* Level1.sks in Resources */,
